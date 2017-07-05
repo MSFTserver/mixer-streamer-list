@@ -1,0 +1,62 @@
+.logoImage{
+	max-width:50px;
+	max-height:50px;
+	border-radius:50%;
+	border: 4px solid darkblue;
+}
+
+body{
+	background-color: #0E162A;
+}
+@-webkit-keyframes rainbow {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+@keyframes rainbow {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+.container{
+	max-width:800px;
+	padding-top:20px;
+}
+a{
+	color: white;
+    font-weight: bold;
+}
+a:hover,a:focus{
+	text-decoration: none;
+	color: green;
+}
+
+.header{
+	/* background:#FDF3E7; */
+	/* padding:20px 0px; */
+	/* border: 5px solid #DDD; */
+}
+.header h1{
+	margin:0;
+	padding:0;
+	color: white;
+}
+.true{
+	border: 5px solid #006600;
+	margin-bottom: 10px;
+}
+.offline{
+	border: 5px solid red;
+	margin-bottom: 10px;
+}
+.content{
+	/* padding:10px; */
+
+}
+.btn{
+	margin-bottom:1px;
+}
+.col-sm-8.col-xs-9.status {
+    color: white;
+    font-size: small;
+}

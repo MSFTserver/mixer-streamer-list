@@ -1,0 +1,95 @@
+@media (min-width: 768px){
+.container2 {
+    width: 750px;
+}}
+@media (min-width: 992px){
+.container2 {
+    width: 970px;
+}}
+@media (min-width: 1200px){
+.container2 {
+    width: 1170px;
+}}
+
+
+
+
+.logoImage{
+	max-width:50px;
+	max-height:50px;
+	border-radius:50%;
+	border: 4px solid darkblue;
+}
+
+body{
+	background-color: #0E162A;
+	display: inline-flex;
+}
+@-webkit-keyframes rainbow {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+@keyframes rainbow {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+.container{
+	max-width: 350px;
+	padding-top:60px;
+	padding-left:20px;
+	margin-right:20px
+	/* position: fixed; */
+}
+a{
+	color: white;
+    font-weight: bold;
+}
+a:hover,a:focus{
+	text-decoration: none;
+	color: green;
+}
+
+.header{
+    display: inline-table;
+    position: fixed;
+    margin-left: 550px;
+}
+.header h1{
+	margin:0;
+	padding:0;
+	color: white;
+}
+.true{
+	border: 5px solid #006600;
+	margin-bottom: 10px;
+}
+.offline{
+	border: 5px solid red;
+	margin-bottom: 10px;
+}
+.content{
+	/* padding:10px; */
+
+}
+.btn{
+	margin-bottom:1px;
+}
+.col-sm-8.col-xs-9.status {
+    color: white;
+    font-size: small;
+    width: 80%;
+}
+.col-sm-8 {
+    width: 80%;
+}
+.display {
+    float: left;
+}
+
+.container2 {
+    padding-top: 60px;
+    padding-left: 20px;
+    max-width: 350px;
+}
